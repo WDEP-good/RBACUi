@@ -1,0 +1,12 @@
+{
+  "//": "要求都字符串都是单引号",
+  "singleQuote": true,
+  "//": "每个语句后面不加分号",
+  "semi": false,
+  "bracketSpacing": true,
+  "htmlWhitespaceSensitivity": "ignore",
+  "endOfLine": "auto",
+  "trailingComma": "all",
+  "//": "缩进占两个位置",
+  "tabWidth": 2
+}
