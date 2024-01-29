@@ -1,17 +1,19 @@
+// 登录接口需要携带参数ts类型
 export interface loginFormData {
   username: string
   password: string
 }
-//
+//登录接口返回数据类型中data选项的数据类型
 interface dataType {
   token: string
 }
 
-//
+//登录接口返回的数据类型
 export interface loginResponseDate {
   status: number
   data: dataType
 }
+// 服务器返回用户信息中data选项的数据类型
 interface userInfoData {
   _id: string
   username: string
@@ -23,7 +25,7 @@ interface userInfoData {
   token: string
   __v: number
 }
-
+// 服务器返回用户信息的数据类型
 export interface userInfoReposeData {
   status: number
   data: userInfoData
