@@ -12,7 +12,6 @@
         "lint:eslint": "eslint src/**/*.{ts,vue} --cache --fix",
         "format": "prettier --write \"./**/*.{html,vue,ts,js,json,md}\"",
         "lint:style": "stylelint src/**/*.{css,scss,vue} --cache --fix",
-        "prepare": "husky install",
         "commitlint": "commitlint --config commitlint.config.cjs -e -V",
         "build:test": "vue-tsc --noEmit && vite build --mode test",
         "build:prod": "vue-tsc --noEmit && vite build --mode production",
